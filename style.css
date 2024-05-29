@@ -1,1 +1,23 @@
+.carousel-container {
+    max-width: 60%; /* Adjust this value to the desired width */
+    margin: auto; /* Center the carousel horizontally */
+  }
 
+.carousel-inner img {
+    height: 500px; /* Adjust this value to the desired height */
+    object-fit: cover; /* Ensure the images cover the specified height */
+    width: 100%;
+  }
+
+
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+    padding: 1rem; /* Add some padding for visual appeal */
+    border-radius: 0.5rem; /* Optional: Add rounded corners */
+  }
+
+  .carousel-caption h5,
+  .carousel-caption p {
+    color: white; /* Ensure text is white for contrast */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
+  }
