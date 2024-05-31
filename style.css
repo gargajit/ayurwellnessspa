@@ -1,56 +1,64 @@
 .carousel-container {
     max-width: 60%; /* Adjust this value to the desired width */
     margin: auto; /* Center the carousel horizontally */
-  }
+}
 
 .carousel-inner img {
     height: 500px; /* Adjust this value to the desired height */
     object-fit: cover; /* Ensure the images cover the specified height */
     width: 100%;
-  }
+}
 
+.carousel-caption {
+background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
+padding: 1rem; /* Add some padding for visual appeal */
+border-radius: 0.5rem; /* Optional: Add rounded corners */
+}
 
-  .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for better readability */
-    padding: 1rem; /* Add some padding for visual appeal */
-    border-radius: 0.5rem; /* Optional: Add rounded corners */
-  }
+.carousel-caption h5,
+.carousel-caption p {
+color: white; /* Ensure text is white for contrast */
+text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
+}
 
-  .carousel-caption h5,
-  .carousel-caption p {
-    color: white; /* Ensure text is white for contrast */
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8); /* Add text shadow for better readability */
-  }
+.header {
+background-color: #b09c81b8;
+}
 
-  .header {
-    background-color: #b09c81b8;
-  }
+#home > .container-fluid {
+padding-left: 0px;
+padding-right: 0px;
+}
 
-  #home > .container-fluid {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+.navbar .nav-link{ 
+color: #895624;
+font-size: 1.3rem;
+font-weight: 400;
+}
 
-  .nav-pills .nav-link{ 
-    color: #895624;
-  }
-
-  .nav-pills .nav-link.active{
+.navbar .nav-link:hover {
     color: #fff;
-    background-color: #4d4c49;
-  }
+}
 
-  .header .btn.btn-outline-primary{
-    color: #4d4c49;
-    border-color: #4d4c49;
-  }
+.navbar .nav-link.active{
+color: #fff;
+background-color: #4d4c49;
+border-radius: 10%;
+}
 
-  /* Styles for the button on hover */
-  .header .btn.btn-outline-primary:hover {
-    color: #fff; /* Text color on hover */
-    background-color: #4d4c49; /* Background color on hover */
-    border-color: #4d4c49; /* Border color on hover */
-  }
+.header .btn.btn-outline-primary{
+color: #4d4c49;
+border-color: #4d4c49;
+font-size: 1.3rem;
+margin-left: auto; 
+}
+
+/* Styles for the button on hover */
+.header .btn.btn-outline-primary:hover {
+color: #fff; /* Text color on hover */
+background-color: #4d4c49; /* Background color on hover */
+border-color: #4d4c49; /* Border color on hover */
+}
 
 
 /* Styles for the button on focus */
@@ -61,3 +69,7 @@
   background-color: #4d4c49; /* Background color on focus/active */
   border-color: #4d4c49; /* Border color on focus/active */
 }
+
+
+
+
