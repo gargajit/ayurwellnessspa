@@ -32,7 +32,7 @@ padding-right: 0px;
 
 .navbar .nav-link{ 
 color: #895624;
-
+font-size: 1.2rem;
 font-weight: 400;
 }
 
@@ -49,6 +49,7 @@ border-radius: 10%;
 .header .btn.btn-outline-primary{
 color: #4d4c49;
 border-color: #4d4c49;
+font-size: 1.2rem;
 }
 
 /* Styles for the button on hover */
