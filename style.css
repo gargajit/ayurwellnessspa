@@ -95,7 +95,7 @@ h1.title::before {
     z-index: 1;
 }
 
-h1.title, h1.merriweather-bold {
+h1.title {
     position: relative;
     z-index: 2;
 }
