@@ -1,9 +1,9 @@
 .carousel-container {
-    max-width: 60%; /* Adjust this value to the desired width */
+    max-width: 1200px; /* Adjust this value to the desired width */
     margin: auto; /* Center the carousel horizontally */
 }
 
-.carousel-inner img {
+.carousel-image {
     height: 500px; /* Adjust this value to the desired height */
     object-fit: cover; /* Ensure the images cover the specified height */
     width: 100%;
