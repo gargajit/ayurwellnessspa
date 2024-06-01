@@ -59,7 +59,7 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg header">
+  <nav class="navbar navbar-expand-lg header  sticky-top">
     <div class="container-fluid me-2">
       <a class="navbar-brand" href="#home">
         <img src="./images/ayurwellness-logo.png" alt="ayurwellness-logo" width="40px" height="32px">
@@ -92,7 +92,7 @@
   </nav>
 
   
-  <!-- Title -->
+  <!-- Home -->
   <section id="home">
     <div class="container-fluid">
       <div class="align-items-center">
@@ -103,9 +103,9 @@
 
 
 
-  <!-- Features -->
-  <section id="services">
-  <h1 class="title my-3 mx-3 merriweather-bold">Our Services</h1>
+  <!-- Services -->
+  <section id="services" class="my-4">
+  <h1 class="title text-center merriweather-bold my-2">Our Services</h1>
   <div class="container-fluid carousel-container mb-4">
     <div id="carouselExampleCaptions" class="carousel slide">
       <div class="carousel-indicators">
@@ -116,7 +116,7 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/eyethereapy.jpg" class="d-block w-100" alt="eye therapy image">
+          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/eyethereapy.jpg" class="d-block w-100 carousel-image" alt="eye therapy image">
           <div class="carousel-caption d-none d-md-block">
             <h4>Eye Therapy</h4>
             <p>
@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/hactick-day-massage.webp" class="d-block w-100" alt="spa image">
+          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/hactick-day-massage.webp" class="d-block w-100 carousel-image" alt="spa image">
           <div class="carousel-caption d-none d-md-block">
             <h5>Hectic Day Massage</h5>
             <p>
@@ -138,7 +138,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/body_spa-1024x576.webp" class="d-block w-100" alt="body massage image">
+          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/body_spa-1024x576.webp" class="d-block w-100 carousel-image" alt="body massage image">
           <div class="carousel-caption d-none d-md-block">
             <h5>Body Spa</h5>
             <p>
@@ -149,7 +149,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/dryneck.jpg" class="d-block w-100" alt="dry therapy image">
+          <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/dryneck.jpg" class="d-block w-100 carousel-image" alt="dry therapy image">
           <div class="carousel-caption d-none d-md-block">
             <h5>Dry Therapy with stretching</h5>
             <p>
@@ -175,31 +175,33 @@
 
 
   <!-- About -->
-  <section id="about">
-    <h1 class="container-fluid mx-2 merriweather-bold">About Us</h1>
-    <div class="col-xxl-5">
-      <img src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/home-massage-spain.jpg" alt="massage at home image" height="80%">
-    </div>
-    <div class="ms-2 justify-content-evenly">
-      <div class="col-xxl-5">
-        <h2 class="featurette-heading fw-normal lh-1 mb-3 merriweather-regular">In-House Massage and Spa</h2>
-        <p class="lead merriweather-light">
-          At AyurWellnessSpa, we believe everyone deserves professional massage therapy, 
-          regardless of their ability to visit a spa. Our in-home services bring the luxury 
-          and benefits of a spa experience directly to you, ensuring accessibility for all.
-        </p>
-        <p class="lead merriweather-light">
-          Our specialized sessions cater to individuals with unique needs, including the elderly, 
-          those with mobility issues, anyone recovering from surgery or injury, and busy professionals 
-          who find it challenging to take out time for spa visits. By providing treatments in the comfort of your home, 
-          we offer a convenient and relaxing experience that promotes healing and well-being.
-        </p>
-        <p class="lead merriweather-light">
-          Whether you're looking to relieve stress, manage pain, or simply enjoy a moment of tranquility, 
-          our skilled therapists deliver personalized treatments to rejuvenate both body and mind. 
-          Discover the benefits of in-home massage therapy with AyurWellnessSpa, 
-          and let us bring the therapeutic touch of our spa to your doorstep.
-        </p>
+  <section id="about" class="my-4">
+    <div class="container-fluid">
+      <h1 class="text-center merriweather-bold">About Us</h1>
+      <div class="row mt-4">
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mb-4 mb-lg-0">
+          <img class="img-fluid w-100" src="https://ayurwellnessspa.in/wp-content/uploads/2023/08/home-massage-spain.jpg" alt="massage at home image" style="object-fit: cover; height: 100%;">
+        </div>
+        <div class="col-xl-8 col-lg-8 col-md-6 col-sm-12">
+            <h2 class="featurette-heading fw-normal lh-1 mb-3 merriweather-regular">In-House Massage and Spa</h2>
+            <p class="lead merriweather-light">
+              At AyurWellnessSpa, we believe everyone deserves professional massage therapy, 
+              regardless of their ability to visit a spa. Our in-home services bring the luxury 
+              and benefits of a spa experience directly to you, ensuring accessibility for all.
+            </p>
+            <p class="lead merriweather-light">
+              Our specialized sessions cater to individuals with unique needs, including the elderly, 
+              those with mobility issues, anyone recovering from surgery or injury, and busy professionals 
+              who find it challenging to take out time for spa visits. By providing treatments in the comfort of your home, 
+              we offer a convenient and relaxing experience that promotes healing and well-being.
+            </p>
+            <p class="lead merriweather-light">
+              Whether you're looking to relieve stress, manage pain, or simply enjoy a moment of tranquility, 
+              our skilled therapists deliver personalized treatments to rejuvenate both body and mind. 
+              Discover the benefits of in-home massage therapy with AyurWellnessSpa, 
+              and let us bring the therapeutic touch of our spa to your doorstep.
+            </p>
+        </div>
       </div>
     </div>
   </section>
